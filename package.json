@@ -2,7 +2,6 @@
   "name": "KineticTypePageTransition",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",

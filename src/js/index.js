@@ -11,7 +11,7 @@ preloadImages('.stack__img').then(() => document.body.classList.remove('loading'
 const typeT = new TypeTransition(document.querySelector('[data-type-transition]'));
 
 // true if there's an animation running
-isAnimating = false;
+let isAnimating = false;
 
 // frame element
 const frameEl = document.querySelector('.frame');

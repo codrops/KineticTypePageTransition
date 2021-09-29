@@ -1,4 +1,4 @@
 /node_modules
 /.cache
-/parcel-cache
+/.parcel-cache
 package-lock.json
