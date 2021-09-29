@@ -5,7 +5,7 @@ import { Item } from './item';
 import gsap from 'gsap/gsap-core';
 
 // preload images then remove loader (loading class) 
-preloadImages('.stack__img').then(() => document.body.classList.remove('loading'));
+preloadImages('.item__img, .article__img').then(() => document.body.classList.remove('loading'));
 
 // text transition
 const typeT = new TypeTransition(document.querySelector('[data-type-transition]'));
