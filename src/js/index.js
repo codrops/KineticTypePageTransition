@@ -2,7 +2,6 @@ import { preloadImages } from './utils';
 import { gsap } from 'gsap';
 import { TypeTransition } from './typeTransition';
 import { Item } from './item';
-import gsap from 'gsap/gsap-core';
 
 // preload images then remove loader (loading class) 
 preloadImages('.item__img, .article__img').then(() => document.body.classList.remove('loading'));
